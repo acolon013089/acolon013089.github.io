@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 3px solid black;
+    border-radius: 60px; 
+
+}
+#header {
+    color: black;
+    font-style:italic;
+    text-underline-position:auto;   
+}
+.nav__link{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    border: medium solid transparent;
+    text-decoration: none;    
+}
+.nav_links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 90%;
+    background-color: whitesmoke;
+    border: medium solid transparent;
+}
+.nav_links a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.decagon {
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 65%, 80% 90%, 50% 100%, 20% 90%, 0 65%, 0 35%, 20% 10%);
+}
+            
+
+.picture_img{
+    height: 400px;
+    width: auto;
+}
+    .shape-outer {
+        display: flex;
+        flex-shrink: 0;
+        height: calc(250px + 4vw);
+        width: calc(250px + 4vw);
+        margin: 30px;
+    
+    }
+    
+    .shape-inner {	
+        height: calc(130px + 4vw);
+        width: calc(130px + 4vw);
+   
+}
+.contact-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+
+}
+.contact{
+    padding-top: 30px;
+    font-size: 85%;
+    bottom: auto; 
+    
+ }
+  
+ .header{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+       
+}
+.outlook__icon:hover{
+    transform: scale(1.3); 
+    height: 200px;
+    width: auto; 
+    
+}
+.lin__icon:hover{
+    transform: scale(1.3);
+    
+    
+}
+.resume_img{
+    height: 1200px;
+    width: auto;
+    align-items: center;
+    justify-content: center; 
+    padding-left: 150px;
+    padding-right: 50px;   
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border: 3px solid rgba(0, 0, 0, 0.938);
+    border-left: 50px;
+    border-radius: 250px ;
+    border-top-left-radius: 250px;
+    
+}
+/* footer{
+    text-align: center;
+} */
+
+
+    
