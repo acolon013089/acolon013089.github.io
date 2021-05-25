@@ -56,4 +56,4 @@ body {
         padding: 0 0 4px 23px;
         background: url(https://www.computerhope.com/cdn/arrow.png) no-repeat left center;
        }
-        
+       html { scroll-behavior: smooth; }
